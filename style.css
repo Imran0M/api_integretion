@@ -1,0 +1,50 @@
+ body{
+        margin: 0;
+        padding: 0;
+
+    }
+    img {
+        margin: 30px;
+        border: 1px solid #17234D;
+        border-radius: 4px;
+        text-align: center;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        background-color:#17234D ;
+        height: 100px;
+    }
+    .inp{
+        background-color: aliceblue;
+        /* color: #820000; */
+        color: #17234D;
+        height: 35px;
+        width: 250px;
+        border-radius: 6px;
+        border: 2px solid #17234D ;
+    }
+    .btn{
+        background-color: #D0E7FE;
+        color:#17234D;
+        border-radius: 4px;
+        width: 100px;
+        height: 34px;
+        padding: 5px;
+        border: aliceblue;
+        font-size: 16px;
+        font-weight: bold;
+    }
+   
+    .placeholder{
+        color: #820000;
+    }
+
+    @media only screen and (max-width: 525px) {
+        img {
+          width: 325px;
+      
+        }
+      }
